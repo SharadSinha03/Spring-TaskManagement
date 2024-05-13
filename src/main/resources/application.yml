@@ -1,0 +1,11 @@
+spring:
+  port: 8081
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/taskmanagement
+    username: postgres
+    password: admin
+    
+app:
+  allowed:
+    origins: http://localhost:4200
